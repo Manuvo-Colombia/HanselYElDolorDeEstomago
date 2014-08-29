@@ -1,0 +1,146 @@
+@charset "utf-8";
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center; /* !!! */
+}
+.centrado {
+    margin: 0 auto;
+    text-align: left;
+    width: 1024px;
+}
+#fondodiv {
+	background-attachment: scroll;
+	background-image: url(home.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	height:768px;
+	width: 1024px;
+	background-color: rgba(255,243,44,1);
+	top: 0px;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 0px;
+	position: absolute;
+}
+#titulo {
+	width: 421px;
+	position: absolute;
+	height: 147px;
+	top: 0px;
+	right: 310px;
+	bottom: 575px;
+	padding-top: 63px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin: 0px;
+}
+#btn_creditos {
+	margin: 0px;
+	height: 51px;
+	width: 179px;
+	left: 426px;
+	right: 426px;
+	position: absolute;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+	top: 561px;
+}
+#btn_creditos a {
+	background-image: url(leer_creditos_off.png);
+	height: 51px;
+	width: 179px;
+	background-repeat: no-repeat;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 51px;
+	padding-left: 179px;
+	text-indent: -100px;
+}
+#btn_creditos a:hover {
+	background-image: url(leer_creditos_on.png);
+	height: 51px;
+	width: 179px;
+	background-repeat: no-repeat;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 51px;
+	padding-left: 179px;
+	text-indent: -100px;
+}
+
+
+#btn_ajustes {
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 16px;
+	padding-left: 0px;
+	height: 54px;
+	width: 218px;
+	position: absolute;
+	left: 408px;
+	right: 408px;
+	top: 616px;
+}
+#btn_ajustes a  {
+	background-image: url(ajustes_off.png);
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 54px;
+	padding-left: 218px;
+	height: 54px;
+	width: 218px;
+}
+#btn_ajustes a:hover {
+	background-image: url(ajustes_on.png);
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 54px;
+	padding-left: 218px;
+	height: 54px;
+	width: 218px;
+	position: relative;
+	right: 5px;
+}
+
+
+#btn_leer {
+	height: 68px;
+	width: 246px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 16px;
+	padding-left: 0px;
+	position: absolute;
+	left: 395px;
+	right: 395px;
+	bottom: 0px;
+}
+#btn_leer a {
+	background-image: url(leer_off.png);
+	background-repeat: no-repeat;
+	height: 68px;
+	width: 246px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 68px;
+	padding-left: 246px;
+}
+#btn_leer a:hover {
+	background-image: url(leer_on.png);
+	background-repeat: no-repeat;
+	height: 68px;
+	width: 246px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 68px;
+	padding-left: 246px;
+}
