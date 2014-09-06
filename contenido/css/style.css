@@ -1,0 +1,67 @@
+@charset "utf-8";
+@import url("Noteworthy_Light/stylesheet.css");
+@import url("NoteWorthy_bold/stylesheet.css");
+
+body { 
+	padding:0px; 
+	margin:0px; 
+	background-color: #FFF32C; 
+}
+
+.full { 
+	background: #FFF32C url('../img/bg_contenido.png'); 
+	width: 1024px;
+	margin: 0 auto; 
+	height: 100vh; 
+	overflow: auto;
+	outline: 1px dashed white;
+}
+
+#lpage, #rpage {
+  width: 48%; 
+  height: 95vh;
+  margin:1%; 
+  padding: 0;
+}
+
+#lpage {   
+  float:left; 
+}
+
+#rpage {   
+	float:right; 
+}
+
+.pagecover{
+	max-width:100%;
+  max-height:100%;
+  margin-top: 5vh;
+}
+
+#slidy-container {
+	max-width:100%;
+  max-height:100%;
+	width: 100%; 
+	overflow: hidden;
+	margin-top: 5vh;
+}
+
+.text {
+	font-family: Noteworthy-Light;
+	font-size: 16pt;
+	font-style: normal;
+	line-height: normal;
+	color: #261d0c;
+	font-weight: normal;
+	text-align: center;
+	clear: none;
+	margin: 0px;
+	padding-top: 22px;
+	padding-right: 16px;
+	padding-bottom: 22px;
+	padding-left: 16px;
+}
+
+strong  {
+	font-family: NoteWorthy-bold;
+}
