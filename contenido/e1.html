@@ -1,20 +1,52 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
 	<meta charset="UTF-8">
-	<title>Escena 1</title>
-	<link href="contenido.css" rel="stylesheet" type="text/css" />
+	<title>Hansel y el dolor de estómago que duró veinte años</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript">
+		/* Ambiente */
+		var snd1  = new Audio();
+		var src1  = document.createElement("source");
+		src1.type = "audio/mpeg";
+		src1.src  = "audio/e1/salsa.mp3";
+		snd1.appendChild(src1);
+		snd1.loop = true;
+		snd1.play();
+
+		/* Narracion */
+		var snd2  = new Audio();
+		var src2  = document.createElement("source");
+		src2.type = "audio/mpeg";
+		src2.src  = "audio/e1/_HANSEL 1_.mp3";
+		snd2.appendChild(src2);
+		snd2.play();
+
+		/* Efectos */
+		
+	</script>
+
+
 </head>
 <body>
-	
-
-<div class="centrado">
-<div id="contenidos">
-<div id="titulo" title="Contenido"><img src="contenido.png" width="455" height="63" alt="Contenido" /></div>
-<a href="#"><div id="btn_home" title="Ir a home"></div></a>
-
-</div>
-</div>
-
+	<div class="full">
+	  <div id="lpage">
+	  	<img class="pagecover" src="img/e1_web.png">
+	  </div>
+	  <div id="rpage">
+		  <p class="text">
+		  —Sí, a Gretel y a mí nos gustaba mucho ir al centro con papá cada quincena para comprar 
+			la lista de mercado que hacía mamá, cambiar los bombillos quemados de la casita que 
+			teníamos subiendo por la 8 y buscar algún agáchese donde vendieran películas de acción 
+			baratas.
+			</p>
+			<p class="text">
+			Como teníamos que andar rápido y sin despegarnos, jugábamos a no chocarnos con nada 
+			esquivando en zigzag carretas con aguacates, vendedores de zapatos y esos señores que 
+			entregaban hojitas de descuento para ir a salas de masaje. Siempre, delante de nosotros, 
+			papá se abría paso entre la gente como si fuera un barco atravesando el mar.
+			</p>  
+	  </div>
+	</div>
 </body>
 </html>
