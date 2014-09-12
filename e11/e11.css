@@ -1,0 +1,80 @@
+@charset "utf-8";
+@import url("Noteworthy_Light/stylesheet.css");
+@import url("NoteWorthy_bold/stylesheet.css");
+
+
+
+
+body {
+	background-color: #edcc9d;
+	margin: 0;
+	padding: 0;
+	text-align: center; /* !!! */
+}
+.centrado {
+	text-align: left;
+	width: 1024px;
+	height: 768px;
+	padding: 0px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+#imagen {
+	margin: 0px;
+	padding: 0px;
+	background-color: #a38e7a;
+	float: left;
+	clear: none;
+	height: 768px;
+	width: 727px;
+}
+#texto {
+	font-family: Noteworthy-Light;
+	font-size: 16pt;
+	font-style: normal;
+	line-height: normal;
+	color: #261d0c;
+	font-weight: normal;
+	text-align: center;
+	clear: none;
+	margin: 0px;
+	padding-top: 22px;
+	padding-right: 16px;
+	padding-bottom: 22px;
+	padding-left: 16px;
+}
+strong  {
+	font-family: NoteWorthy-bold;
+}
+#Botones {
+	margin: 0px;
+	clear: both;
+	padding-top: 22px;
+	padding-right: 0px;
+	padding-bottom: 14px;
+	padding-left: 0px;
+}
+#btn_atras {
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 88px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#btn_siguiente {
+	margin: 0px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 88px;
+	background-color: rgba(0,0,0,1);
+}
+#btn_menu {
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 88px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
