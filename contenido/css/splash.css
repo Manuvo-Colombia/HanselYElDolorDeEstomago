@@ -12,15 +12,15 @@ body {
 }
 #fondodiv {
 	background-attachment: scroll;
-	background-image: url(home.png);
+	background-image: url(../img/home.png);
 	background-repeat: no-repeat;
 	background-position: center bottom;
-	height:768px;
+	height: 768px;
 	width: 1024px;
 	background-color: rgba(255,243,44,1);
 	top: 0px;
-	margin-left:auto;
-	margin-right:auto;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 0px;
 	position: absolute;
 }
@@ -51,7 +51,7 @@ body {
 	top: 561px;
 }
 #btn_creditos a {
-	background-image: url(leer_creditos_off.png);
+	background-image: url(../img/leer_creditos_off.png);
 	height: 51px;
 	width: 179px;
 	background-repeat: no-repeat;
@@ -66,7 +66,7 @@ body {
   animation:         APARECER 5s;
 }
 #btn_creditos a:hover {
-	background-image: url(leer_creditos_on.png);
+	background-image: url(../img/leer_creditos_on.png);
 	height: 51px;
 	width: 179px;
 	background-repeat: no-repeat;
@@ -92,7 +92,7 @@ body {
 	top: 616px;
 }
 #btn_ajustes a  {
-	background-image: url(ajustes_off.png);
+	background-image: url(../img/ajustes_off.png);
 	background-repeat: no-repeat;
 	margin: 0px;
 	padding-top: 0px;
@@ -107,7 +107,7 @@ body {
   animation:         APARECER 5s;
 }
 #btn_ajustes a:hover {
-	background-image: url(ajustes_on.png);
+	background-image: url(../img/ajustes_on.png);
 	background-repeat: no-repeat;
 	margin: 0px;
 	padding-top: 0px;
@@ -134,7 +134,7 @@ body {
 	bottom: 0px;
 }
 #btn_leer a {
-	background-image: url(leer_off.png);
+	background-image: url(../img/leer_off.png);
 	background-repeat: no-repeat;
 	height: 68px;
 	width: 246px;
@@ -148,7 +148,7 @@ body {
   animation:         APARECER 5s; 
 }
 #btn_leer a:hover {
-	background-image: url(leer_on.png);
+	background-image: url(../img/leer_on.png);
 	background-repeat: no-repeat;
 	height: 68px;
 	width: 246px;

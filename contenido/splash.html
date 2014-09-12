@@ -3,18 +3,27 @@
 <head>
 <meta charset="utf-8">
 <title>Hansel y el dolor de estómago que duró 20 años</title>
-<link href="splash.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript">
+		/* Ambiente */
+		var snd1  = new Audio();
+		var src1  = document.createElement("source");
+		src1.type = "audio/mpeg";
+		src1.src  = "audio/Splash_Intro.mp3";
+		snd1.appendChild(src1);
+		snd1.loop = true;
+		snd1.play();
+	</script>
+<link href="css/splash.css" rel="stylesheet" type="text/css">
 </head>
 <body bgcolor="#FFF32C">
 <div class="centrado">
 <div id="fondodiv" align="center">
-<div id="titulo"><img src="titulo.png" alt="Título" name="titulo" width="421" height="147"></div>
-<div id="btn_creditos" title="Botón Creditos"><a href="#"></a></div>
-<div id="btn_ajustes" title="Botón Ajustes"><a href="#"></a></div>
-<div id="btn_leer" title="Botón Leer"><a href="#"></a></div>
+<div id="titulo"><img src="img/titulo.png" alt="Título" name="titulo" width="421" height="147"></div>
+<div id="btn_creditos" title="Botón Creditos"><a href="creditos.html"></a></div>
+<div id="btn_ajustes" title="Botón Ajustes"><a href="ajustes.html"></a></div>
+<div id="btn_leer" title="Botón Leer"><a href="e1.html"></a></div>
 </div>
 </div>
-<audio src="Splash_Intro.mp3" loop autoplay></audio>
 </body>
 </html>
 
