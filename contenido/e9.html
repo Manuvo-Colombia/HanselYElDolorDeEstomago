@@ -5,27 +5,44 @@
 	<title>Hansel y el dolor de estómago que duró veinte años</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script type="text/javascript">
+		/* Ambiente */
 		var snd1  = new Audio();
 		var src1  = document.createElement("source");
 		src1.type = "audio/mpeg";
 		src1.src  = "audio/e9/9Salsa.mp3";
 		snd1.appendChild(src1);
+		snd1.loop = true;
+		snd1.play();
 
-		snd1.play(); 
+		/* Narracion */
+		var snd2  = new Audio();
+		var src2  = document.createElement("source");
+		src2.type = "audio/mpeg";
+		src2.src  = "audio/e9/_HANSEL 9_.mp3";
+		snd2.appendChild(src2);
+		snd2.play();
 
+		/* Efectos */
+		
 	</script>
 
 
 </head>
 <body>
 	<div class="full">
-	  <div id="lpage" >
-			<img class="pagecover" src="img/e9a_web.png" alt>
+	  <div id="lpage">
+	  	<img class="pagecover" src="img/e9c_web.png">
 	  </div>
 	  <div id="rpage">
-	  <p class="text">
-	  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sagittis magna vitae gravida feugiat. In erat ex, congue nec quam eget, pretium consectetur sem. Aenean ligula nunc, bibendum in felis vitae, aliquet fermentum eros. Praesent feugiat lectus ultrices elit posuere efficitur. Sed iaculis purus sit amet ullamcorper varius. Curabitur imperdiet nunc sed nisi pulvinar maximus. Nullam condimentum lacinia neque eget rhoncus.
-	  </p>	  
+		  <p class="text">
+		 	—Es difícil de creer que le haya durado veinte años ese problema.
+			</p>
+			<p class="text">
+			—Bueno, no sería el primero en dudarlo. Al principio se suponía que era una cosa 
+			pasajera, después responsabilidad de unos gusanos, de una herida estomacal que nunca 
+			encontraron, o una afección psicológica, o una experiencia traumática, y luego, nada, no 
+			era nada. Lo más sencillo para los médicos fue afirmar que ese dolor hacía parte de mí.
+			</p>  
 	  </div>
 	</div>
 </body>
